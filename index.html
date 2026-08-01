@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drooling Cat | $DROOL on Solana</title>
+  <meta name="description" content="Drooling Cat ($DROOL) is pure speechless awe. A blank-faced cat staring into the void with melted-brain energy. No roadmap. No utility. Just $DROOL on Solana." />
+  <meta name="theme-color" content="#3D9EFF" />
+  <meta name="keywords" content="Drooling Cat, $DROOL, Solana, meme coin, community token" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Drooling Cat | $DROOL on Solana" />
+  <meta property="og:description" content="No thoughts. Just $DROOL. The official community token for everyone left staring speechlessly at the screen." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:image:alt" content="Drooling Cat mascot with electric blue drool" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Drooling Cat | $DROOL on Solana" />
+  <meta name="twitter:description" content="No thoughts. Just $DROOL. Pure speechless awe on Solana." />
+  <meta name="twitter:image" content="assets/logo.png" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Grain / scanline overlays -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary">
+      <a href="#home" class="nav__brand">
+        <img src="assets/logo.png" alt="Drooling Cat logo" class="nav__logo" width="44" height="44" />
+        <span class="nav__wordmark">DROOLING CAT</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how-to-buy">How to Buy</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a href="#" class="btn btn--ghost btn--icon js-x-link" aria-label="Follow Drooling Cat on X" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.227-8.66L1.99 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+        </a>
+        <a href="#" class="btn btn--primary js-buy-link magnetic" target="_blank" rel="noopener noreferrer">BUY $DROOL</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/banner.png" alt="" class="hero__banner" />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__text">
+          <h1 class="hero__title distorted">
+            <span>NO THOUGHTS.</span>
+            <span class="hero__title-accent">JUST $DROOL.</span>
+          </h1>
+          <p class="hero__sub">
+            The official community token for everyone left staring speechlessly at the screen.
+          </p>
+          <div class="hero__ctas">
+            <a href="#" class="btn btn--primary btn--lg js-buy-link magnetic" target="_blank" rel="noopener noreferrer">BUY $DROOL</a>
+            <a href="#" class="btn btn--outline btn--lg js-chart-link magnetic" target="_blank" rel="noopener noreferrer">VIEW CHART</a>
+          </div>
+          <div class="contract-box" role="group" aria-label="Contract address">
+            <span class="contract-box__label">CA</span>
+            <code class="contract-box__address js-contract" tabindex="0">SolTBA</code>
+            <button type="button" class="btn btn--copy js-copy-btn" aria-label="Copy contract address">
+              <span class="js-copy-label">COPY</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero__mascot-wrap">
+          <div class="hero__mascot float-breathe">
+            <img src="assets/logo.png" alt="Drooling Cat mascot staring blankly with blue drool" class="hero__mascot-img" width="420" height="420" />
+            <span class="drool-drip" aria-hidden="true"></span>
+            <span class="drool-drip drool-drip--2" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-phrases" aria-hidden="true">
+        <span class="phrase" data-phrase>brain melted</span>
+        <span class="phrase" data-phrase>still staring</span>
+        <span class="phrase" data-phrase>send drool</span>
+        <span class="phrase" data-phrase>no thoughts</span>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+        <span class="scroll-indicator__mouse"></span>
+        <span class="scroll-indicator__text">SCROLL</span>
+      </a>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span>NO THOUGHTS</span><span class="marquee__dot">●</span>
+          <span>JUST DROOL</span><span class="marquee__dot">●</span>
+          <span>$DROOL</span><span class="marquee__dot">●</span>
+          <span>SOLANA</span><span class="marquee__dot">●</span>
+          <span>BRAIN MELTED</span><span class="marquee__dot">●</span>
+          <span>JOIN THE CROWD</span><span class="marquee__dot">●</span>
+          <span>EMBRACE THE DROOL</span><span class="marquee__dot">●</span>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span>NO THOUGHTS</span><span class="marquee__dot">●</span>
+          <span>JUST DROOL</span><span class="marquee__dot">●</span>
+          <span>$DROOL</span><span class="marquee__dot">●</span>
+          <span>SOLANA</span><span class="marquee__dot">●</span>
+          <span>BRAIN MELTED</span><span class="marquee__dot">●</span>
+          <span>JOIN THE CROWD</span><span class="marquee__dot">●</span>
+          <span>EMBRACE THE DROOL</span><span class="marquee__dot">●</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title distorted reveal" data-reveal>PURE SPEECHLESS AWE</h2>
+
+        <div class="about__grid">
+          <div class="about__visual reveal" data-reveal>
+            <div class="about__logo-frame">
+              <img src="assets/logo.png" alt="Close-up of Drooling Cat with electric blue drool" class="about__logo" loading="lazy" width="400" height="400" />
+            </div>
+          </div>
+
+          <div class="about__copy reveal" data-reveal>
+            <p>
+              Drooling Cat is pure speechless awe. A blank-faced cat stares into the void while a long strand of drool hangs from its mouth.
+            </p>
+            <p>
+              No thoughts. No words. Just melted-brain energy. It is the universal reaction to charts pumping, alpha hitting, or complete chaos unfolding.
+            </p>
+            <ul class="about__mantra">
+              <li>No roadmap.</li>
+              <li>No utility.</li>
+              <li>No thoughts.</li>
+              <li class="about__mantra-accent">Just $DROOL.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reaction-cards">
+          <article class="reaction-card tilt reveal" data-reveal>
+            <span class="reaction-card__emoji" aria-hidden="true">📈</span>
+            <h3>CHARTS PUMPING</h3>
+            <p>Eyes locked. Brain buffering. Drool loading.</p>
+          </article>
+          <article class="reaction-card tilt reveal" data-reveal>
+            <span class="reaction-card__emoji" aria-hidden="true">⚡</span>
+            <h3>ALPHA HITTING</h3>
+            <p>Signal received. Thoughts discarded. Stare engaged.</p>
+          </article>
+          <article class="reaction-card tilt reveal" data-reveal>
+            <span class="reaction-card__emoji" aria-hidden="true">🌀</span>
+            <h3>CHAOS UNFOLDING</h3>
+            <p>Everything is happening. Nothing makes sense. Perfect.</p>
+          </article>
+          <article class="reaction-card tilt reveal" data-reveal>
+            <span class="reaction-card__emoji" aria-hidden="true">🫠</span>
+            <h3>BRAIN OFFLINE</h3>
+            <p>System shutdown complete. Drool protocol active.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DROOL METER ========== -->
+    <section class="meter-section section" id="drool-meter" aria-labelledby="meter-heading">
+      <div class="container">
+        <h2 class="section__title distorted reveal" data-reveal id="meter-heading">DROOL METER</h2>
+        <p class="section__sub reveal" data-reveal>Drag or click to melt your brain. How far gone are you?</p>
+
+        <div class="meter reveal" data-reveal>
+          <div class="meter__labels">
+            <span>thinking normally</span>
+            <span>completely melted</span>
+          </div>
+
+          <div
+            class="meter__track"
+            id="meter-track"
+            role="slider"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            aria-valuetext="Suspiciously conscious"
+            aria-label="Drool meter level"
+            tabindex="0"
+          >
+            <div class="meter__fill" id="meter-fill"></div>
+            <div class="meter__thumb" id="meter-thumb"></div>
+            <div class="meter__ticks" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <div class="meter__readout">
+            <span class="meter__percent" id="meter-percent">0%</span>
+            <p class="meter__message" id="meter-message">Suspiciously conscious</p>
+          </div>
+
+          <div class="meter__particles" id="meter-particles" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HOW TO BUY ========== -->
+    <section class="how section" id="how-to-buy">
+      <div class="container">
+        <h2 class="section__title distorted reveal" data-reveal>HOW TO BUY</h2>
+        <p class="section__sub reveal" data-reveal>Three steps. Zero thoughts required.</p>
+
+        <ol class="steps">
+          <li class="step reveal" data-reveal>
+            <span class="step__num">01</span>
+            <div class="step__body">
+              <h3>GET A SOLANA WALLET</h3>
+              <p>Install a Solana wallet and create your account. Keep your keys safe — your brain is already melted enough.</p>
+            </div>
+          </li>
+          <li class="step reveal" data-reveal>
+            <span class="step__num">02</span>
+            <div class="step__body">
+              <h3>LOAD IT WITH SOL</h3>
+              <p>Buy SOL on an exchange and send it to your wallet. Fuel for the stare.</p>
+            </div>
+          </li>
+          <li class="step reveal" data-reveal>
+            <span class="step__num">03</span>
+            <div class="step__body">
+              <h3>BUY $DROOL ON PUMP.FUN</h3>
+              <p>Open pump.fun, paste the contract, and join the drooling crowd.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="how__cta reveal" data-reveal>
+          <a href="#" class="btn btn--primary btn--xl js-buy-link magnetic" target="_blank" rel="noopener noreferrer">BUY NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMMUNITY ========== -->
+    <section class="community section" id="community">
+      <div class="container">
+        <h2 class="section__title distorted reveal" data-reveal>JOIN THE DROOLING CROWD</h2>
+        <p class="section__sub reveal" data-reveal>
+          One cat stared into the void. Then the entire internet joined.
+        </p>
+
+        <div class="community__banner-wrap reveal" data-reveal id="crowd-parallax">
+          <img
+            src="assets/banner.png"
+            alt="A massive crowd of Drooling Cats all staring blankly with blue drool"
+            class="community__banner"
+            loading="lazy"
+            width="1600"
+            height="600"
+          />
+        </div>
+
+        <div class="community__ctas reveal" data-reveal>
+          <a href="#" class="btn btn--outline js-x-link magnetic" target="_blank" rel="noopener noreferrer">FOLLOW ON X</a>
+          <a href="#" class="btn btn--primary js-buy-link magnetic" target="_blank" rel="noopener noreferrer">BUY NOW</a>
+          <a href="#" class="btn btn--outline js-chart-link magnetic" target="_blank" rel="noopener noreferrer">VIEW CHART</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TOKEN INFO ========== -->
+    <section class="token section" id="token">
+      <div class="container">
+        <h2 class="section__title distorted reveal" data-reveal>TOKEN INFO</h2>
+
+        <div class="token-panel reveal" data-reveal>
+          <dl class="token-panel__grid">
+            <div class="token-panel__item">
+              <dt>Token</dt>
+              <dd>Drooling Cat</dd>
+            </div>
+            <div class="token-panel__item">
+              <dt>Ticker</dt>
+              <dd>$DROOL</dd>
+            </div>
+            <div class="token-panel__item">
+              <dt>Chain</dt>
+              <dd>Solana</dd>
+            </div>
+            <div class="token-panel__item">
+              <dt>Contract</dt>
+              <dd>
+                <code class="js-contract">SolTBA</code>
+                <button type="button" class="btn btn--copy btn--copy-sm js-copy-btn" aria-label="Copy contract address">
+                  <span class="js-copy-label">COPY</span>
+                </button>
+              </dd>
+            </div>
+            <div class="token-panel__item token-panel__item--full">
+              <dt>Status</dt>
+              <dd>Community Meme</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FINAL CTA ========== -->
+    <section class="final section" id="embrace">
+      <div class="container final__inner">
+        <div class="final__logo-wrap reveal" data-reveal>
+          <img src="assets/logo.png" alt="Drooling Cat logo" class="final__logo float-breathe" loading="lazy" width="220" height="220" />
+        </div>
+        <h2 class="final__title distorted reveal" data-reveal>
+          EMBRACE THE DROOL
+          <span class="final__drool" aria-hidden="true"></span>
+        </h2>
+        <p class="final__text reveal" data-reveal>Stop thinking. Start staring.</p>
+        <div class="final__ctas reveal" data-reveal>
+          <a href="#" class="btn btn--primary btn--xl js-buy-link magnetic" target="_blank" rel="noopener noreferrer">BUY $DROOL</a>
+          <a href="#" class="btn btn--outline btn--lg js-x-link magnetic" target="_blank" rel="noopener noreferrer" aria-label="Follow on X">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.227-8.66L1.99 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            FOLLOW X
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="" class="footer__logo" loading="lazy" width="48" height="48" />
+        <div>
+          <strong>Drooling Cat</strong>
+          <span>$DROOL · Solana</span>
+        </div>
+      </div>
+
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#" class="js-x-link" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="#" class="js-chart-link" target="_blank" rel="noopener noreferrer">Chart</a>
+        <a href="#" class="js-buy-link" target="_blank" rel="noopener noreferrer">Buy</a>
+      </nav>
+
+      <div class="footer__contract">
+        <span>Contract</span>
+        <code class="js-contract">SolTBA</code>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p class="footer__disclaimer">
+        $DROOL is a community meme token created for entertainment. Cryptocurrency is volatile. Always do your own research.
+      </p>
+      <p class="footer__tagline">Built with zero thoughts.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
