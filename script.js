@@ -5,7 +5,7 @@
 
 const CONFIG = {
   contractAddress: "SolTBA",
-  xUrl: "https://x.com/WiWiWiMeme",
+  xUrl: "https://x.com/DroolingCatPump",
   chartUrl: "#", // ← insert Dexscreener URL here
   buyUrl: "#"    // ← insert pump.fun URL here
 };
